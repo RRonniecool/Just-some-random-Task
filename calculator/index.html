@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="calculator">
+        <input type="text" name="" id="display" >
+        <div id="keys">
+            <button id="clear" onclick="clearDisplay()">C</button>
+            <button id="divide" onclick="appendToDisplay('/')">/</button>
+            <button id="multiply" onclick="appendToDisplay('*')">*</button>
+            <button id="subtract" onclick="appendToDisplay('-')">-</button>
+            <button id="add" onclick="appendToDisplay('+')">+</button>
+            <button id="equal" onclick="calculate()">=</button>
+            <button id="number7" onclick="appendToDisplay('7')">7</button>
+            <button id="number8" onclick="appendToDisplay('8')">8</button>
+            <button id="number9" onclick="appendToDisplay('9')">9</button>
+            <button id="number4" onclick="appendToDisplay('4')">4</button>
+            <button id="number5" onclick="appendToDisplay('5')">5</button>
+            <button id="number6" onclick="appendToDisplay('6')">6</button>
+            <button id="number1" onclick="appendToDisplay('1')">1</button>
+            <button id="number2" onclick="appendToDisplay('2')">2</button>
+            <button id="number3" onclick="appendToDisplay('3')">3</button>
+            <button id="number0" onclick="appendToDisplay('0')">0</button>
+            <button id="decimal" onclick="appendToDisplay('.')">.</button>
+        </div>
+    </div>
+    
+
+
+    <script src="function.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+
+</body>
+</html>
